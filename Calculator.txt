@@ -6,9 +6,9 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the first number:");
+		System.out.println("Enter Your First Number:");
 		float a = sc.nextFloat();
-		System.out.println("Enter the second number:");
+		System.out.println("Enter Your Second Number:");
 		float b = sc.nextFloat();
 		System.out.println("Enter the operation:");
 		
@@ -33,7 +33,7 @@ public class Calculator {
 		default:
 			System.out.println("Invalid");	
 		}
-		System.out.println(" Your Result is:" + result);
+		System.out.println(" Your Result is : " + result);
 
 	}
 
