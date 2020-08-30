@@ -33,7 +33,7 @@ public class Calculator {
 		default:
 			System.out.println("Invalid");	
 		}
-		System.out.println("Result is:" + result);
+		System.out.println(" Your Result is:" + result);
 
 	}
 
